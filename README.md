@@ -36,6 +36,15 @@ This is an embedded browser integration, not an official NotebookLM API client. 
 
 The extracted preference tests pass. The predecessor build received Zotero 10.0.6 startup and pane-registration checks; Google sign-in and a full upload were not repeated for this standalone packaging change. This add-on is not affiliated with or endorsed by Google or Zotero.
 
+## Other plugins
+
+These plugins install independently. No suite is required.
+
+- [Praetor for Zotero](https://github.com/kvarnelis/zotero-praetor) — Chat with Codex or Claude Code about Zotero items, search indexed text, and review proposed library changes.
+- [Page View for Zotero](https://github.com/kvarnelis/zotero-page-view) — Add single-page reading, two-page spreads, page fitting, and focus controls to the PDF reader.
+- [Compact Pane for Zotero](https://github.com/kvarnelis/zotero-compact-pane) — Show compact metadata fields and copy attachment paths from the item menu.
+- [Quiet Theme for Zotero](https://github.com/kvarnelis/zotero-quiet-theme) — Switch Zotero’s native appearance and manage a compact interface overlay.
+
 ## Build and check
 
 Building requires a Unix shell, `zip`, and Python 3. Syntax checks and any included unit tests require Node.js. End users installing an XPI do not need these developer tools.
