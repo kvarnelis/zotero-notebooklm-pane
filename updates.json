@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "zys-notebook@kazys.local": {
+      "updates": [
+        {
+          "version": "0.4.4",
+          "update_link": "https://github.com/kvarnelis/zotero-notebooklm-pane/releases/download/v0.4.4/zotero-notebooklm-pane.xpi",
+          "update_hash": "sha256:ab2e596bb6095578eaa3561f451ca57f5ffd9b760b2459af379d7713156f447f",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "9.0",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "NotebookLM Pane for Zotero",
+  "version": "0.4.4",
+  "description": "Embeds Google NotebookLM in the Zotero item pane: upload sources, chat, and studio without leaving Zotero.",
+  "author": "Kazys Varnelis",
+  "applications": {
+    "zotero": {
+      "id": "zys-notebook@kazys.local",
+      "strict_min_version": "9.0",
+      "strict_max_version": "10.0.*",
+      "update_url": "https://raw.githubusercontent.com/kvarnelis/zotero-notebooklm-pane/main/updates.json"
+    }
+  },
+  "homepage_url": "https://github.com/kvarnelis/zotero-notebooklm-pane"
+}

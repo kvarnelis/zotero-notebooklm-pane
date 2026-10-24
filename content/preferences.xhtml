@@ -1,0 +1,36 @@
+<vbox id="zys-notebook-preferences"
+	class="main-section"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	onload="Zotero.ZysNotebook.initPreferencesPane(this)">
+	<groupbox aria-labelledby="zys-notebook-preferences-panels-title">
+		<label><html:h2 id="zys-notebook-preferences-panels-title">Panels</html:h2></label>
+		<vbox class="zys-notebook-preferences-options">
+			<checkbox
+				label="Item-pane section"
+				preference="extensions.zotero.zysNotebook.ui.miniPanel"
+				native="true"/>
+			<description class="zys-notebook-preferences-description">
+				The compact NotebookLM section in the library and reader item panes.
+			</description>
+			<checkbox
+				label="Full-pane view"
+				preference="extensions.zotero.zysNotebook.ui.fullPanel"
+				native="true"/>
+			<description class="zys-notebook-preferences-description">
+				The sidenav button that swaps the whole right pane.
+			</description>
+			<description class="zys-notebook-preferences-caption">
+				Both off hides NotebookLM everywhere; the settings stay here.
+			</description>
+		</vbox>
+	</groupbox>
+
+	<groupbox aria-labelledby="zys-notebook-preferences-about-title">
+		<label><html:h2 id="zys-notebook-preferences-about-title">About</html:h2></label>
+		<description>
+			<html:span id="zys-notebook-preferences-version"></html:span>
+			<html:span> — NotebookLM Pane — NotebookLM inside Zotero.</html:span>
+		</description>
+	</groupbox>
+</vbox>
