@@ -36,14 +36,15 @@ This is an embedded browser integration, not an official NotebookLM API client. 
 
 The extracted preference tests pass. The predecessor build received Zotero 10.0.6 startup and pane-registration checks; Google sign-in and a full upload were not repeated for this standalone packaging change. This add-on is not affiliated with or endorsed by Google or Zotero.
 
-## Other plugins
+## Related tools
 
-These plugins install independently. No suite is required.
+See the [Zotero Tools main page](https://kvarnelis.github.io/zotero-tools/) for an overview. Each tool installs independently. Book Helper is a separate Mac app.
 
 - [Praetor for Zotero](https://github.com/kvarnelis/zotero-praetor) — Chat with Codex or Claude Code about Zotero items, search indexed text, and review proposed library changes.
 - [Page View for Zotero](https://github.com/kvarnelis/zotero-page-view) — Add single-page reading, two-page spreads, page fitting, and focus controls to the PDF reader.
 - [Compact Pane for Zotero](https://github.com/kvarnelis/zotero-compact-pane) — Show compact metadata fields and copy attachment paths from the item menu.
 - [Quiet Theme for Zotero](https://github.com/kvarnelis/zotero-quiet-theme) — Switch Zotero’s native appearance and manage a compact interface overlay.
+- [Book Helper](https://github.com/kvarnelis/book-helper) — Identify and rename PDF and DRM-free EPUB books in a native Mac app, with optional Zotero import.
 
 ## Build and check
 
